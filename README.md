@@ -1,15 +1,15 @@
 # Project_Template
 
-## Team Name: 
+## Team Name: Open Source Toolchain Tutorial for Lattice FPGAs
 (Enter your team name from Canvas)
 
 ## Team Members:
-- Student 1
-- Student 2
-- Student 3
+- Garrett Delaney
+- Nick Flora
+- Robert Smith
 
 ## Project Title:
-(Enter your project title - be creative)
+Implementing an LFSR onto a Lattice FPGA Board
 
 ## Project Description:
 (Provide a short description of the problem you're addressing)

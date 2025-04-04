@@ -1,7 +1,6 @@
 # Lattice FPGA Tutorial
 
 ## Team Name: Open Source Toolchain Tutorial for Lattice FPGAs
-(Enter your team name from Canvas)
 
 ## Team Members:
 - Garrett Delaney
@@ -28,6 +27,7 @@ We hope to deliver a finished lab that will allow any student with the FPGA Boar
 Garrett Delaney - Design the LFSR Verilog code, design the initial tutorial to download and run the necessary software onto the board, debugging.
 Nick Flora- Design the LFSR Verilog code, design the initial tutorial to download and run the necessary software onto the board, debugging, first run of downloading software that would be used with board
 Robert Smith - Introduction, Background, Questions, will be running through the tutorial after creation to confirm the tasks, make sure it can be done without any outside help
+
 ## Timeline:
 4/11 - Fully implement the Background, Introduction, and other initial parts into the tutorial. Have the Verilog fully completed and able to be ran on the board.
 4/18 - Fully write the lab with all instructions in one place, confirm that the board works with no issues and that it can be run.

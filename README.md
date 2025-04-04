@@ -19,7 +19,30 @@ The goal of this Project is to create a step-by-step tutorial to implement an LF
 - Create a fully operational lab using the steps that we ourselves used.
 
 ## Technology Stack:
-(List the hardware platform, software tools, language(s), etc. you plan to use)
+- Board: [iCEBreaker](https://1bitsquared.com/products/icebreaker?srsltid=AfmBOooAh5g4leaGdWQUO7u2lhPpUcnAjkmURPF2zZcMg79j3SATimH3)
+    - Here's a highlight of the features relevant to this project, see the full specs [here](https://docs.icebreaker-fpga.org/hardware/icebreaker/)
+    - FPGA: Lattice iCE40 UltraPlus 5K
+        - 5280 Logic Cells (4-LUT + Carry + FF)
+    - QSPI-DDR-capable flash 128 MBit (16 MB)
+    - 39 I/O capable pins
+        - 3 PINs for RGB LED (pin header)
+        - 2 LEDs (one on output-only PLL pin)
+        - 1 Clock pin (on PLL GBIN)
+        - 1 Push Button
+        - 16 PINs on dual PMOD
+        - 8 PINs on single PMOD / snap-off section
+- Peripherals:
+    - USB C cable
+    - [1 Bit Squared PMOD 7-Segment Display](https://1bitsquared.com/products/pmod-7-segment-display?srsltid=AfmBOoqTvs5gFYn6XuRsQLZZ0BmuKskXW9ZFBNxfJExGojLuetX-dGLe)
+- [APIO Software toolsuite](https://github.com/FPGAwars/apio): 
+    - Synthesis: yosys
+    - Place and route: nextpnr
+    - Bitstream generation: icepack
+    - Programmer: iceprog
+        - Drivers: libusbK through Zadig
+    - Simulation: Icarus Verilog
+    - Wave Viewer: GTKWave
+- RTL/HDL Lanuage: Verilog
 
 ## Expected Outcomes:
 We hope to deliver a finished lab that will allow any student with the FPGA Board to run an LFSR without the need of outside assistance.

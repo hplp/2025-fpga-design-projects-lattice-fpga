@@ -1,4 +1,4 @@
-# Project_Template
+# Lattice FPGA Tutorial
 
 ## Team Name: Open Source Toolchain Tutorial for Lattice FPGAs
 (Enter your team name from Canvas)

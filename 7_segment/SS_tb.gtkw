@@ -1,0 +1,31 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Thu Apr 17 21:21:33 2025
+[*]
+[dumpfile] "C:\Users\gjd11\Documents\4Y\FPGAlab\2025-fpga-design-projects-lattice-fpga\7_segment\SS_tb.vcd"
+[dumpfile_mtime] "Thu Apr 17 21:10:59 2025"
+[dumpfile_size] 170978
+[savefile] "C:\Users\gjd11\Documents\4Y\FPGAlab\2025-fpga-design-projects-lattice-fpga\7_segment\SS_tb.gtkw"
+[timestart] 0
+[size] 1536 793
+[pos] -9 -9
+*-34.726944 31700000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] SS_tb.
+[sst_width] 197
+[signals_width] 188
+[sst_expanded] 1
+[sst_vpaned_height] 221
+@22
+SS_tb.DUT.SS_counter[7:0]
+@28
+SS_tb.SS_A_n
+SS_tb.SS_B_n
+SS_tb.SS_C_n
+SS_tb.SS_D_n
+SS_tb.SS_E_n
+SS_tb.SS_F_n
+SS_tb.SS_G_n
+@29
+SS_tb.SS_right
+[pattern_trace] 1
+[pattern_trace] 0

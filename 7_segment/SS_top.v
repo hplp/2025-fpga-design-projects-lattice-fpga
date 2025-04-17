@@ -2,9 +2,9 @@
 //-- Blinking LED
 //-- The Green LED is blinking. The other LEDs are turned off
 //------------------------------------------------------------------
-module top (
+module SS_top (
 	input CLK,      //-- 12 Mhz
-	output reg SS_A_n, SS_B_n, SS_C_n, SS_D_n, SS_E_n, SS_F_n, SS_G_n, SS_right
+	output reg SS_A_n, SS_B_n, SS_C_n, SS_D_n, SS_E_n, SS_F_n, SS_G_n, SS_right=0
 );
 
 reg [23:0] one_sec_counter = 0; // counts [0, 12M) on 12MHz clock so it zeros every 1s

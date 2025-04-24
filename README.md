@@ -8,10 +8,10 @@
 - Robert Smith
 
 ## Project Title:
-Implementing an LFSR onto a Lattice FPGA Board
+Implementing a multiple different Verilog Designs onto a Lattice FPGA Board
 
 ## Project Description:
-The goal of this Project is to create a step-by-step tutorial to implement an LFSR onto a new board - The Lattice iCEbreaker V1. Once that is complete we will design a full lab, similar to the ones utilized in class, that can be ran through by new FPGA students with no issues.
+The goal of this Project is to create a step-by-step tutorial to implement various Verilog onto a new board - The Lattice iCEbreaker V1. Once that is complete we will design a full lab, similar to the ones utilized in class, that can be ran through by new FPGA students with no issues.
 ## Key Objectives:
 - Download Software for Lattice FPGA Board
 - Implement LFSR onto the FPGA Board
